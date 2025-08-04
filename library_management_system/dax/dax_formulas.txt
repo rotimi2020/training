@@ -1,0 +1,44 @@
+📄 dax_formulas.txt — LMS Analysis
+
+Power BI DAX Formulas – LMS Analysis
+This document contains all DAX Measures and Calculated Columns used in the LMS Power BI dashboard.
+
+──────────────────────
+📊 MEASURES
+──────────────────────
+
+# 📐 DAX Formulas for LMS Analysis Dashboard
+
+## ✅ DAX Formulas Used in Visuals
+
+1. Average Days Delayed = AVERAGE('Lms_Analysis'[MAX_DAYS_DELAYED])
+2.Average Fine Amount = AVERAGE(Lms_Analysis[FINE_AMOUNT])
+
+3. Book Code = COUNT(Lms_Analysis[BOOK_CODE])
+4. Total Book Issued = COUNT(Lms_Analysis[BOOK_ISSUE_NO])
+5. Total Fine Amount = SUM(Lms_Analysis[FINE_AMOUNT])
+6. Total Late Returns = CALCULATE(COUNTROWS('Lms_Analysis'),'Lms_Analysis'[MAX_DAYS_DELAYED] > 0 ) 
+7. Total Members = DISTINCTCOUNT(Lms_Analysis[MEMBER_ID])
+8. Total Price Of Book = SUM(Lms_Analysis[PRICE])
+
+
+
+─────────────────────────────
+📘 CALCULATED COLUMNS
+─────────────────────────────
+9. Delayed Status = IF('Lms_Analysis'[DATE_RETURNED] > 'Lms_Analysis'[DATE_RETURN], "Late", "On Time")
+10. Fine Category = SWITCH(TRUE(),
+    'Lms_Analysis'[FINE_AMOUNT] = 0, "No Fine",
+    'Lms_Analysis'[FINE_AMOUNT] <= 20, "Low Fine",
+    'Lms_Analysis'[FINE_AMOUNT] <= 50, "Medium Fine",
+    "High Fine"
+)
+11. Month Name = FORMAT('Lms_Analysis'[DATE_ISSUE], "MMMM")
+12. Year Issued = YEAR('Lms_Analysis'[DATE_ISSUE])
+
+
+
+
+─────────────────────────────
+✅ End of DAX Formulas
+─────────────────────────────

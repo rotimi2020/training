@@ -1,0 +1,35 @@
+BOOK_CODE,BOOK_TITLE,CATEGORY,AUTHOR,PUBLICATION,PUBLISH_DATE,BOOK_EDITION,PRICE,RACK_NUM,DATE_ARRIVAL,SUPPLIER_ID
+BL000001,Programming in ANSI C,C PROGRAMMING,E. Balagurusamy,Tata McGraw-Hill,2013-07-01,6,400.0,A1,2015-01-02,S01
+BL000002,Let Us C,C PROGRAMMING,Yashavant Kanetkar,BPB Publications,2016-08-01,13,375.0,A1,2017-03-15,S01
+BL000003,The C Programming Language,C PROGRAMMING,"Brian W. Kernighan, Dennis M. Ritchie",Prentice Hall,1988-03-22,2,500.0,A1,2000-05-10,S02
+BL000004,Object-Oriented Programming with C++,C++ PROGRAMMING,E. Balagurusamy,Tata McGraw-Hill,2008-10-01,4,575.0,A2,2009-12-12,S01
+BL000005,Effective Modern C++,C++ PROGRAMMING,Scott Meyers,O'Reilly Media,2014-11-01,1,700.0,A2,2016-06-15,S03
+BL000006,Python Crash Course,PYTHON PROGRAMMING,Eric Matthes,No Starch Press,2015-11-01,2,650.0,A3,2017-08-20,S04
+BL000007,Learning Python,PYTHON PROGRAMMING,Mark Lutz,O'Reilly Media,2013-06-01,5,800.0,A3,2015-03-22,S05
+BL000008,Automate the Boring Stuff with Python,PYTHON PROGRAMMING,Al Sweigart,No Starch Press,2015-04-14,1,600.0,A3,2016-09-10,S04
+BL000009,Java: The Complete Reference,JAVA,Herbert Schildt,Tata McGraw-Hill,2018-03-01,11,850.0,A2,2018-12-01,S01
+BL000010,Effective Java,JAVA,Joshua Bloch,Addison-Wesley,2018-05-01,3,950.0,A2,2019-01-01,S02
+BL000011,Java Concurrency in Practice,JAVA,Brian Goetz,Addison-Wesley,2006-05-09,1,1050.0,A2,2007-04-20,S03
+BL000012,Cracking the Coding Interview,PROGRAMMING,Gayle Laakmann McDowell,CareerCup,2015-07-01,6,750.0,A5,2016-05-05,S04
+BL000013,Clean Code,FUNDAMENTALS,Robert C. Martin,Prentice Hall,2008-08-01,1,1200.0,A6,2009-02-20,S02
+BL000014,The Pragmatic Programmer,FUNDAMENTALS,"Andrew Hunt, David Thomas",Addison-Wesley,1999-10-01,1,950.0,A6,2001-01-10,S01
+BL000015,Head First Design Patterns,FUNDAMENTALS,"Eric Freeman, Bert Bates",O'Reilly Media,2004-10-25,1,1100.0,A7,2006-02-15,S03
+BL000016,You Don't Know JS,JAVASCRIPT,Kyle Simpson,O'Reilly Media,2015-01-01,1,500.0,A8,2016-01-05,S04
+BL000017,Eloquent JavaScript,JAVASCRIPT,Marijn Haverbeke,No Starch Press,2018-12-04,3,700.0,A8,2020-02-20,S05
+BL000018,JavaScript: The Good Parts,JAVASCRIPT,Douglas Crockford,O'Reilly Media,2008-05-01,1,600.0,A8,2010-07-15,S03
+BL000019,Learning React,JAVASCRIPT,"Alex Banks, Eve Porcello",O'Reilly Media,2017-05-01,2,850.0,A8,2018-11-01,S04
+BL000020,React Up & Running,JAVASCRIPT,Stoyan Stefanov,O'Reilly Media,2016-09-19,1,650.0,A8,2017-03-25,S05
+BL000021,Pro Angular,WEB DEVELOPMENT,Adam Freeman,Apress,2017-12-22,5,1200.0,A9,2018-05-14,S04
+BL000022,HTML and CSS: Design and Build Websites,WEB DEVELOPMENT,Jon Duckett,Wiley,2011-10-08,1,850.0,A9,2012-04-10,S02
+BL000023,Don't Make Me Think,WEB DEVELOPMENT,Steve Krug,New Riders,2013-01-03,3,650.0,A9,2013-09-15,S01
+BL000024,Bootstrap 4 Quick Start,WEB DEVELOPMENT,Jacob Lett,Leanpub,2017-06-01,1,500.0,A9,2018-02-01,S05
+BL000025,Data Science from Scratch,DATA SCIENCE,Joel Grus,O'Reilly Media,2015-04-14,1,750.0,A10,2016-05-10,S03
+BL000026,Python for Data Analysis,DATA SCIENCE,Wes McKinney,O'Reilly Media,2017-09-25,2,950.0,A10,2018-07-20,S04
+BL000027,"Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow",DATA SCIENCE,Aurélien Géron,O'Reilly Media,2019-10-15,2,1250.0,A10,2020-05-22,S05
+BL000028,Deep Learning,DATA SCIENCE,"Ian Goodfellow, Yoshua Bengio, Aaron Courville",MIT Press,2016-11-18,1,1500.0,A10,2017-03-28,S01
+BL000029,Practical Statistics for Data Scientists,DATA SCIENCE,"Peter Bruce, Andrew Bruce",O'Reilly Media,2017-05-25,1,850.0,A10,2018-06-11,S03
+BL000030,Introduction to the Theory of Computation,THEORETICAL COMPUTER SCIENCE,Michael Sipser,Cengage Learning,2012-06-27,3,1200.0,A11,2013-01-30,S02
+BL000031,Algorithms,THEORETICAL COMPUTER SCIENCE,"Robert Sedgewick, Kevin Wayne",Addison-Wesley,2011-04-01,4,950.0,A11,2012-02-15,S03
+BL000032,Artificial Intelligence: A Modern Approach,AI,"Stuart Russell, Peter Norvig",Pearson,2020-04-06,4,1800.0,A12,2021-03-25,S04
+BL000033,Reinforcement Learning: An Introduction,AI,"Richard S. Sutton, Andrew G. Barto",MIT Press,2018-10-15,2,1400.0,A12,2019-04-30,S01
+BL000034,Natural Language Processing with Python,AI,"Steven Bird, Ewan Klein, Edward Loper",O'Reilly Media,2009-06-15,1,950.0,A12,2011-03-05,S05
