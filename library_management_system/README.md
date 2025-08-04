@@ -223,7 +223,6 @@ group by
 ```
 </details>
 
-## 📊 SQL Queries
 
 ### **Intermediate Queries (11–20)**  
 [Click to Expand...]
@@ -382,7 +381,6 @@ WHERE
 ```
 </details>
 
-## 📊 SQL Queries
 
 ### **Advanced Queries (21–30)**  
 [Click to Expand...]
