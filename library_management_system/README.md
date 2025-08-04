@@ -221,6 +221,7 @@ FROM
 group by
   MEMBER_NAME;
 ```
+</details>
 ## 📊 SQL Queries
 
 ### **Intermediate Queries (11–20)**  
@@ -378,6 +379,7 @@ FROM
 WHERE
   [BOOK_ISSUE_NO] IS NULL;
 ```
+</details>
 ## 📊 SQL Queries
 
 ### **Advanced Queries (21–30)**  
@@ -571,6 +573,7 @@ GROUP BY
   CATEGORY;
 
 ```
+</details>
 
 ## Reports
 **Basic Reports:**
